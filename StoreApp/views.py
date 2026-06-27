@@ -9,7 +9,7 @@ def index(request):
 
 
     context = {
-        'departamentos': departamentos
+        'departamentos': departamentos,
         'produtos': produtos
         }
     return render(request, 'index.html', context)
